@@ -1,1 +1,2 @@
-# Python_2025.04.19
+# Learning python
+  - study string methods in python

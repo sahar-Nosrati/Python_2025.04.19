@@ -1,0 +1,60 @@
+- application of python -> 
+  - web development (server-side),
+  - software development,
+  - mathematics,
+  - system scripting.
+
+- What python can do -> 
+  - create web application on server side 
+  - alongside software to create workflows.
+  - connect to database systems. It can also read and modify files.
+  - to handle big data and perform complex mathematics
+  - rapid prototyping, or for production-ready software development
+
+- Why python -> 
+  - works on different platforms
+  - simple syntax similar to the English language
+  - syntax that allows developers to write programs with fewer lines 
+  - contains an interpreter system
+  - procedural way, an object-oriented way or a functional way
+
+- Execute python -> 
+  - saved file with extension .py -> in CLI -> command -> python name_file.py
+  - in CLI -> command -> py -> write code -> press enter -> point -> 
+    - to exit python CLI -> exit
+
+- Indentation refers to the spaces at the beginning of a code line.
+- Python uses indentation to indicate a block of code.
+- use same indentations for script -> 
+  - Different indentations -> IndentationError: unexpected indent
+
+- command -> 
+  - single line -> #
+  - multiple lines -> """  ....  """
+- points -> Since Python will ignore string literals that are not assigned to a variable, you can add a multiline string (triple quotes) in your code, and place your comment inside it
+
+- variable name rules in python -> 
+  - A variable name must start with a letter or the underscore character
+  - A variable name cannot start with a number
+  - A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+  - Variable names are case-sensitive (age, Age and AGE are three different variables)
+  - A variable name cannot be any of the Python keywords.
+
+- data types -> 
+  - Text Type:	str
+  - Numeric Types:	int, float, complex
+  - Sequence Types:	list, tuple, range
+  - Mapping Type:	dict
+  - Set Types:	set, frozenset
+  - Boolean Type:	bool
+  - Binary Types:	bytes, bytearray, memoryview
+  - None Type:	NoneType
+
+- Tuple -> It is similat list but instead of squar brackets they put inside prantheses
+- Python is an object-orientated language, and as such it uses classes to define data types, including its primitive types.
+
+- Slicing in python -> 
+  - b = "Hello, World!"
+    print(b[2:5]) -> 2-> include, 5-> exclude
+    print(b[:5]) -> from start to 5, 5-> exclude
+    print(b[0:]) -> from start to end, 5-> exclude
